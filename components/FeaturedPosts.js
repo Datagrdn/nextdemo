@@ -13,12 +13,12 @@ const FeaturedPosts = ({ blok }) => {
         </div>
         <ul className="flex">
           {blok.posts.map((post) => {
-            const lang = post.lang === "default" ? "en" : post.lang;
+            // const lang = post.lang === "default" ? "en" : post.lang;
 
             return (
               <li key={post.content._uid} className="pr-8 w-1/3">
                 <a
-                  href={`/${lang}/blog/${post.slug}`}
+                  href={`/blog/${post.slug}`}
                   className="py-16 block transition hover:opacity-50"
                 >
                   <img src={post.content.image} className="pb-10 w-full" />

@@ -17,6 +17,9 @@ const BlogPost = ({ blok }) => {
       <div className="max-w-3xl mx-auto text-center pt-20 flex flex-col items-center">
         <div className="leading-relaxed text-xl text-left text-gray-800 drop-cap">
           {render(blok.long_text)}
+          <br />
+          <br />
+          <br />
         </div>
       </div>
     </SbEditable>
