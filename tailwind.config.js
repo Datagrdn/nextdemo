@@ -1,10 +1,12 @@
-export const purge = [];
-export const theme = {
-  fontFamily: {
-    sans: "Roboto, Arial, sans-serif",
-    serif: "Merriweather, Georgia, serif",
+module.exports = {
+  purge: false,
+  theme: {
+    fontFamily: {
+      sans: "Roboto, Arial, sans-serif",
+      serif: "Merriweather, Georgia, serif",
+    },
+    extend: {},
   },
-  extend: {},
+  variants: {},
+  plugins: [],
 };
-export const variants = {};
-export const plugins = [];
